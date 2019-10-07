@@ -22,26 +22,12 @@ invokes tape to run tests.
 
 ### dependencies
 
-tape
-tape-run
-browserify
+* tape
+* tape-run
+* browserify
 
 ### Configuration
 
-#### handle babel transformation
-
-<pre>
- .babelrc
- 
- {  
-  "presets": [  
-    "@babel/preset-env",  
-    "@babel/preset-react"  
-  ],  
-  "plugins": [  
-    ["@babel/transform-runtime"]  
-  ]  
-}  
-</pre>
+handles babel transformation with .babelrc configuration file with presets and plugins defined.  
 
 ## errors
