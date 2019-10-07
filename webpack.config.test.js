@@ -1,10 +1,8 @@
 var path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+var glob = require("glob");
 
 module.exports = {
-  entry: {
-    app: path.join(__dirname, 'tests', 'all.test.js')
-  },
+  entry: glob.sync("./src/**/*.test.js"),
   mode: "development",
   devtool: 'inline-source-map',
   output: {

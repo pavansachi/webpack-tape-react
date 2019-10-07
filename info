@@ -1,3 +1,0 @@
-// "unittest": "NODE_ENV=test tape -r 'esm' -r './tests/babel-setup.js' -r './tests/setup.js' -r ./src/ './dist/bundle.js'",
-
-// "test": "webpack-dev-server --config webpack.config.test.js",
