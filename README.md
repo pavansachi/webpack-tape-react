@@ -1,5 +1,5 @@
-# webpack-jest-react
-A started template for react and webpack with jest testing
+# webpack-tape-react
+A started template for react and webpack with tape testing
 
 ## Prerequisites
 
