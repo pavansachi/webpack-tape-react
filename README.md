@@ -14,10 +14,6 @@ A started template for react and webpack with tape testing framework
 ### Testing
 > yarn test
 
-Runs the build before running tests. Should create a bundle file  
-in dist directory.  
-Uses the webpack test configuration and Babel configuration.  
-
 invokes tape to run tests.  
 
 ### dependencies
@@ -27,6 +23,10 @@ invokes tape to run tests.
 * browserify
 
 ### Configuration
+
+builds a distribution bundle.js in dist directory.  
+It uses the webpack test configuration.  
+
 
 handles babel transformation with .babelrc configuration file with presets and plugins defined.  
 
